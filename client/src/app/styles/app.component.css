@@ -1,0 +1,24 @@
+.highlight {
+  background-color: red; }
+
+.logo {
+  font-family: KacstTitleL;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #1d8785;
+  margin: 15px 1px 15px 1px; }
+
+.navlink {
+  padding-top: 15px; }
+
+.navlink2 {
+  color: #989898;
+  transition: color 1000ms ease-in-out, font-size 100ms ease-in-out;
+  font-weight: normal;
+  font-size: 17px; }
+  .navlink2:hover {
+    font-size: 17.15px;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: underline;
+    color: #505050; }
