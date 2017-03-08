@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'my-app',
   templateUrl: 'html/app.component.html',
-  styleUrls: ['styles/app.component.css']
+  styleUrls: ['./scss/app.component.css']
 })
 export class AppComponent  { name = 'Angular'; }
