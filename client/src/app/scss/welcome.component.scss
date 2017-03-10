@@ -1,5 +1,7 @@
 $heightlimit: '400px';
 $widthlimit: '800px';
+$contactColor: rgb(63, 90, 124);
+$footerColor: rgb(239, 240, 242);
 .welcomeblock{
   margin: 51px 0 0 0;
   width: 100%;
@@ -89,4 +91,26 @@ $widthlimit: '800px';
   .img2{
     height: 300px;
   }
+}
+.contact{
+  text-align: center;
+  height: 225px;
+  width: 100%;
+  background-color: $contactColor;
+  color: whitesmoke;
+  .title{
+    padding-top: 78px;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  .content{
+    font-size: 20px;
+  }
+}
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: $footerColor;
+  text-align: right;
+  padding-top: 78px;
 }
