@@ -5,7 +5,8 @@ var udSchema = mongoose.Schema({
     userName: { type: String, required: true},
     deviceName: { type: String, required: true},
     fingerprint: { type: String, required: true },
-    stats: {type: String, enum:['owner', 'user'], default: 'user'}
+    stats: {type: String, enum:['owner', 'user'], default: 'user'},
+    number: {type: Number}
 });
 
 var noop = function() {}

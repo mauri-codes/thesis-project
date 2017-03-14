@@ -8,10 +8,6 @@ var deviceSchema = mongoose.Schema({
     owner: {type: String}
 });
 
-deviceSchema.methods.name = function() {
-    return this.name;
-};
-
 var noop = function() {}
 
 deviceSchema.pre("save", function(done) {
